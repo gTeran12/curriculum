@@ -1,0 +1,38 @@
+/*BARRA DE NAVEGACION*/
+.navegacion {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    background-color: var(--smoke-black);
+    z-index: 2;
+    
+}
+.navegacion ul {
+    width: 38%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.navegacion ul li a {
+    color: white;
+    font-weight: bolder;
+}
+.navegacion ul li a:hover {
+    text-decoration: 4px underline gray;    
+}
+@media (max-width: 1210px ){
+    .navegacion ul {
+        width: 50%;
+    }
+}
+@media (max-width:992px) {
+    .navegacion {
+        display: none;
+    }
+}

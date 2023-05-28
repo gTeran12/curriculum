@@ -4,48 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="skills, programador">
+    <meta name="description" content="Descripcion de la pag">
+    <meta name="author" content="Guillermo Isaac Teran Mendoza">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
+
     <title>Curriulum Vitae Guillermo Terán</title>
 </head>
 <body>
+
+    <nav class="navegacion">
+        <ul>
+            <li>Sobre mi</li>
+            <li>Skills</li>
+            <li>Hobbies</li>
+            <li>Formación</li>
+        </ul>
+    </nav>
+
     <header>
-        <h1>Curriculum Vitae</h1>
+        <section class="header-container">
+            <section class="header-container-elements">
+                <p>&ltGuillermoTeran/&gt</p>
+                <nav class="header_nav">
+                    <ul>
+                        <li><a href="https://github.com/gTeran12"><i class="fa fa-github" style="font-size:32px ;color: var(--white)"></i></li>
+                        <li><a href=""></li>
+                        <li><a href=""></li>
+                        <li><a href=""></li>
+                    </ul>
+                </nav>
+            </section>
+
+        </section>
     </header>
 
     <main>
-        <div class="section">
-            <span class="highlight">Información Personal</span>
-            <p>Nombre: Guillermo Isaac Terán Mendoza</p>
-            <p>Email: gteran@espol.edu.ec</p>
-            <p>Celular: +593-995362974</p>
-        </div>
-        <div class="section">
-            <span class="highlight">Educación</span>
-            <p>Escuela Superior Politécnica del Ecuador, Guayaquil </p>
-            <p>Ingeniería en Ciencias Computacionales</p>
-            <p>2016 - Actualidad</p>
-        </div>
-        <div class="section">
-            <span class="highlight">Experiencia de Trabajo</span>
-            <p>Advanced POS Solution</p>
-            <p>2021 - Actualiad</p>
-            <p></p>
-        </div>
-        <div class="section">
-            <span class="highlight">Skills</span>
 
-            <p>Programming Languages: </p>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>C</li>
-                <li>Javascript</li>
-            </ul>
-            <p>Operating Systems: Linux, Windows</p>
-            <p>Databases: MySQL</p>
-        </div>
+
+
+
+
+
+        <!--FORMULARIO-->
+        <section class="main_container-contacto">
+            <div class="grid-container-contacto">
+                <div class="container-texto-contacto">
+                    <h2>Contáctame</h2>
+                    <p>Complete el siguiente formulario y me pondré en contacto con usted lo ante posible.</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7974.30055778247!2d-79.91990337291305!3d-2.0954705470759962!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1685290346134!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="container-formulario">
+                    <form>
+                        <label for="nombre"></label>
+                        <input class="input-box" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                        <br>
+                        <label for="correo"></label>
+                        <input class="input-box" type="text" id="correo" name="correo" placeholder="Correo Electrónico" required>
+                        <br>
+                        <label for="mensaje"></label>
+                        <textarea class="text-area" name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                        <br>
+                        <input class="form-btn" type="submit" value="Enviar">
+
+                        
+                    </form>
+                </div>
+
+            </div>  
+        </section>
     </main>
     <footer>
-        <p>Copyright &copy; 2023</p>
+        <p class="copyright">Copyright &copy; 2023</p>
     </footer>
 </body>
 </html>

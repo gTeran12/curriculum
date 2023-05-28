@@ -1,0 +1,27 @@
+:root {
+    --black: #151515;
+    --smoke-black: #242424; 
+    --white: #dfdfe2;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+h1,h2,h3,p {
+    color: var(--white);
+}

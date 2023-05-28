@@ -1,0 +1,31 @@
+<div class="section">
+            <span class="highlight">Información Personal</span>
+            <p>Nombre: Guillermo Isaac Terán Mendoza</p>
+            <p>Email: gteran@espol.edu.ec</p>
+            <p>Celular: +593-995362974</p>
+        </div>
+        <div class="section">
+            <span class="highlight">Educación</span>
+            <p>Escuela Superior Politécnica del Ecuador, Guayaquil </p>
+            <p>Ingeniería en Ciencias Computacionales</p>
+            <p>2016 - Actualidad</p>
+        </div>
+        <div class="section">
+            <span class="highlight">Experiencia de Trabajo</span>
+            <p>Advanced POS Solution</p>
+            <p>2021 - Actualiad</p>
+            <p></p>
+        </div>
+        <div class="section">
+            <span class="highlight">Skills</span>
+
+            <p>Programming Languages: </p>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Javascript</li>
+            </ul>
+            <p>Operating Systems: Linux, Windows</p>
+            <p>Databases: MySQL</p>
+        </div>
